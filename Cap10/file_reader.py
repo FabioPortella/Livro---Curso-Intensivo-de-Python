@@ -8,5 +8,8 @@ pi_string = ''
 for line in lines:
     pi_string += line.rstrip()
 
-print(pi_string[:52] + '...')
-print(len(pi_string))
+niver = input("Entre com a data de seu aniversário: ddmmaa => ")
+if niver in pi_string:
+    print("Seu aniverário está no primeiro milhão de digitos de PI !")
+else:
+    print("Seu aniverário NÃO está no primeiro milhão de digitos de PI !")
